@@ -1,5 +1,5 @@
 {% set name = "mhealpy" %}
-{% set version = "0.1.9" %}
+{% set version = "0.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mhealpy-{{ version }}.tar.gz
-  sha256: 17097a67beff74eb31691a7db8b20bacfa28bdeee4098a1b2b141c9611ce137a
+  sha256: a0eb6c127fddeaa791ffc46cf4c5b38c461f5e2f80bb4cdd398988410f7f3a59
 
 build:
   number: 0
